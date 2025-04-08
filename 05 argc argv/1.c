@@ -1,6 +1,11 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+/*
+Napisz program, który wypisze wszystkie argumenty, które przekazał użytkownik w postaci:
+”Argument numer X: Tekst”, gdzie X jest numerem argumentu, a Tekst jest przekazanym napisem 
+*/
+
 int main(int argc, char* argv[])
 {
     int i;

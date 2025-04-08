@@ -1,3 +1,8 @@
+/*
+Utwórz tablicę dwuwymiarową o wymiarze nxn i sprawdź czy jest to tablica magiczna
+ – to znaczy czy suma liczb w każdym wierszu, kolumnie oraz na przekątnej jest taka sama.  
+*/
+
 #include<stdio.h>
 
 int is_magic(int **arr, int n)

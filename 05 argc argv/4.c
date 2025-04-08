@@ -1,6 +1,11 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+/*
+ Zaimplementuj kalkulator potrafiący obsłużyć działania w Odwrotnej notacji polskiej. 
+ Za stos może Ci posłużyć odpowiednio duża tablica. Obsłuż błędy. 
+*/
+
 int main(int argc, char* argv[])
 {
     int stack[1000];

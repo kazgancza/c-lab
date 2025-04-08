@@ -1,6 +1,10 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+/*
+ Zmodyfikuj poprzedni program tak, żeby rysował trójkąt symetryczny względem osi Y. 
+*/
+
 int main(int argc, char* argv[])
 {
     int i;

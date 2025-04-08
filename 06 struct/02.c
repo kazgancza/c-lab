@@ -1,6 +1,12 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+/*
+ Utwórz strukturę zawierającą pola danych typów (dokładnie w tej kolejności):
+ - char int char - char char int Wyświetl i wypisz rozmiar tych zmiennych.
+ Zinterpretuj wyniki. 
+*/
+
 typedef struct
 {
     char a;

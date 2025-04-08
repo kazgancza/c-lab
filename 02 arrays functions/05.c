@@ -1,3 +1,12 @@
+/*
+Utwórz dwuwymiarową tablicę char’ów o rozmiarze 10x10.
+Wypełnij ją znakami # i _ tak, żeby po wypisaniu na konsolę utworzyły one wzór szachownicy:
+_#_#_#_#_#_#_#
+#_#_#_#_#_#_#_
+_#_#_#_#_#_#_#
+....  
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>

@@ -1,6 +1,11 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+/*
+Napisz program, który przyjmie argument będący liczbą,
+a następnie narysuje trójkąt prostokątny o wprowadzonym rozmiarze. 
+*/
+
 int main(int argc, char* argv[])
 {
     int i;

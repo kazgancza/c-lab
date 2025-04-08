@@ -1,6 +1,14 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+/*
+Napisz kalkulator, który na podstawie przekazanych argumentów,
+będzie potrafił wykonać pewne obliczenia. Program ma przyjmować trzy argumenty w postaci:
+a op b, gdzie a i b to liczby zmiennoprzecinkowe, a op to operator (+, x, /). 
+program wypisuje na ekran wynik operacji. Program ma obsługiwać błędną ilość argumentów,
+błędne operatory i dzielenie przez 0. 
+*/
+
 int main(int argc, char* argv[])
 {
     if(argc!=4)

@@ -1,6 +1,11 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+/*
+ Napisz funkcję, która nic nie zwraca, przyjmuje dwa argumenty i zamienia ich wartości,
+ także poza funkcją. 
+*/
+
 void swap(int *a, int *b)
 {
     int temp=*a;

@@ -1,5 +1,8 @@
 #include<stdio.h>
+/*
+Zaimplementuj rekurencyjny algorytm zwracający i-tą liczbę ciągu Fibonacciego.
 
+*/
 
 int fib(int i)
 {

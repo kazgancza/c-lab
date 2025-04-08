@@ -1,5 +1,22 @@
 #include<stdio.h>
 
+/*
+Poniższe zadania zrealizuj bez korzystania z funkcji pracujących na napisach 
+(z nagłówka <string.h>), bo ich implementacja jest częścią zadania.
+Przetestuj swoje funkcje.
+a. Napisz funkcję zwracającą długość przekazanego napisu (jak strlen).
+b. Napisz funkcję kopiującą napis do przekazanego bufora (jak strcpy).
+c. Napisz funkcję łączącą dwa napisy (jak strcat).
+d. Napisz funkcję porównującą napisy zwracającą 1 jeśli napisy są różne,
+albo 0 jeśli są takie same (podobnie do strcmp).
+e. Zmodyfikuj swoją funkcję porównującą tak, żeby działała jak strcmp z biblioteki C.
+To znaczy, że ma zwracać liczbę ujemną jeśli pierwszy napis jest mniejszy (leksykalnie),
+0 jak są równe, a liczbę dodatnią jeśli jest większy.
+f. Napisz funkcję zmieniającą wielkie litery na małe
+g. Napisz funkcję przyjmującą napis i znak, która zwraca indeks pierwszego wystąpieni
+danego znaku. Zwróć -1 jeśli znak nie znajduje się w zdaniu (podobnie do strchr). 
+*/
+
 int slen(char *text)
 {
     int len=0;

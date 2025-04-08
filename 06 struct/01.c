@@ -1,6 +1,11 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+/*
+Utwórz strukturę reprezentującą prostokąt.
+a. Napisz funkcję, która obliczy i zwróci jego pole powierzchni. 
+*/
+
 typedef struct
 {
     int a;

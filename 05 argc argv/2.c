@@ -1,6 +1,11 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+/*
+ Poproś użytkownika o podanie wartości n.
+ Następnie wczytaj n liczb i znajdź największą z nich. Załóżmy, że n >= 1; 
+*/
+
 int main(int argc, char* argv[])
 {
     int i;

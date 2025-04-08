@@ -1,3 +1,10 @@
+/*
+Utwórz większą (na przykład 100+ elementową) tablicę losowych liczb,
+a nastepnie znajdź w niej najdłuższy rosnący podciąg.
+Na przykład, dla tablicy {2, 11, 3, 5,  7, 13, 8, 19, 17, 23},
+najdłuższy rosnący podciąg to {3, 5, 7, 13}. 
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
 
