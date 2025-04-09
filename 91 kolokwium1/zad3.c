@@ -5,7 +5,7 @@
 void copy_distinct(char *ori, char* out)
 {
     int i;
-    int j;
+    int j = 0;
     int ori_len = strlen(ori);
     char previous = '\0';
 

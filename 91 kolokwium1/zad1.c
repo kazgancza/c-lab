@@ -1,14 +1,15 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <string.h>
 
 typedef struct
 {
     int money;
-    char currency[3];
+    char currency[4];
 } Wallet;
 
 void move_money(Wallet *left, Wallet *right, int value)
 {
-    if (*left->currency == *right->currency && left->money >= value) 
+    if (strcmp(left->currency, right->currency) == 0 && left->money >= value) 
     {
         right->money += value;
         left->money -= value;
@@ -21,9 +22,10 @@ int main()
     Wallet second;
 
     first.money = 100;
-    *first.currency = "PLN";
+    strcpy(first.currency, "PLN");
+
     second.money = 200;
-    *second.currency = "PLN";
+    strcpy(second.currency, "PLN");
 
     move_money(&first, &second, 75);
 
