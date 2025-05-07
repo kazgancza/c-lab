@@ -1,3 +1,9 @@
+/*
+Napisz program, który będzie działał tak, jak polecenie wc,
+czyli przyjmie jako argument nazwę pliku, a następnie wypisze
+ile w tym pliku było liter, słów i linii. 
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
