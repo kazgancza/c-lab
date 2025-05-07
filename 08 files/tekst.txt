@@ -1,0 +1,11 @@
+Przykladowy tekst
+Drugi wiersz
+
+pusta linia
+
+
+
+duzo PUSTYCH linii
+wielokrotne    spacje i znaki $pec*@|ne.
+
+---koniec pliku---
