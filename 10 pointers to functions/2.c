@@ -37,7 +37,7 @@ int main(int argc, char* argv[])
     printf("---------------\n");
     for(i=0; i<10; i++)
     {
-        
+        printf("%f\n", tab[i]);
     }
 
     qsort(tab, 10, sizeof(float), comp_float_desc);
