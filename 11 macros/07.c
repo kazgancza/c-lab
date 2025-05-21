@@ -10,3 +10,15 @@ int main()
 
     return 0;
 }
+
+/*
+Utwórz plik makra.h zawierający poniższe makra, 
+a następnie dołącz go do głównego kodu programu dyrektywą 
+include:
+ a. PI przechowującego wartość liczby pi 
+ b. Makra obliczającego pole koła na podstawie 
+ przekazanego promienia 
+ c. Makra obliczającego pole prostokąta 
+ na podstawie przekazanych argumentów W main 
+ przetestuj działanie makr. 
+*/
